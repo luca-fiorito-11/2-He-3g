@@ -1,210 +1,209 @@
-JEFF-3.3 Incident Neutron File                                       1 0  0    0
- 2.003000+3 2.990120+0          0          0          2          0 225 1451    1
+JEFF-3.2 Release - Neutron File March 2014                             0  0    0
+ 2.003000+3 2.989032+0          0          0          2          0 225 1451    1
  0.000000+0 0.000000+0          0          0          0          6 225 1451    2
- 1.000000+0 2.000000+7          3          0         10          3 225 1451    3
- 0.000000+0 0.000000+0          0          0        185          8 225 1451    4
+ 1.000000+0 2.000000+7          1          0         10         32 225 1451    3
+ 0.000000+0 0.000000+0          0          0        184          8 225 1451    4
   2-He-  3 LANL       EVAL-MAY90 G.Hale,D.Dodder,P.Young           225 1451    5
-                      DIST-DEC17 REV3-DEC17            20171231    225 1451    6
----JEFF-3.3           MATERIAL  225                                225 1451    7
+                      DIST-DEC06                       20111222    225 1451    6
+----JEFF32            MATERIAL  225                                225 1451    7
 -----INCIDENT NEUTRON DATA                                         225 1451    8
 ------ENDF-6 FORMAT                                                225 1451    9
 *****************************  JEFF-3.2    *********************** 225 1451   10
                                                                    225 1451   11
-*****C. Jouanne (Dec. 2015) corrections on Mass and Q reac         225 1451   12
- ****************************************************************  225 1451   13
- ENDF/B-VII.1                                                      225 1451   14
- ****************************************************************  225 1451   15
-                                                                   225 1451   16
-New capture cross sections were evaluated with the EDA code.       225 1451   17
-The ENDF/B-VI evaluation is strictly 1/v, going through a low      225 1451   18
-thermal value, whereas the data indicate a higher thermal value,   225 1451   19
-and resonance structure around 2 MeV. This fit also had data in    225 1451   20
-the 4He(gamma,n) direction that indicated a much higher cross      225 1451   21
-section in the MeV region, and that is the reason why the new      225 1451   22
-evaluation looks overshooting the experimental 3He(n,g) data       225 1451   23
-in the MeV region. The differences in the new and old capture      225 1451   24
-cross sections was added to the total cross sections.              225 1451   25
-                                                                   225 1451   26
-                                              G. Hale (Apr. 2011)  225 1451   27
-                                                                   225 1451   28
- ****************************************************************  225 1451   29
-                                                                   225 1451   30
- ENDF/B-VII  CONVERTED FROM ENDF/B-VI BY NNDC OCT 2004             225 1451   31
-                                                                   225 1451   32
- ****************************************************************  225 1451   33
-                                                                   225 1451   34
-                  MOD1 OF ENDF/B-VI                                225 1451   35
-                                                                   225 1451   36
-     THE ONLY REVISION MADE FOR MOD1 OF ENDF/B-VI WAS TO ADD THE   225 1451   37
- COMMENTS BELOW ON THE STANDARDS COVARIANCES.  THE DESCRIPTION     225 1451   38
- OF THE ENDF/B-VI EVALUATION IS GIVEN BELOW.                       225 1451   39
-                                                                   225 1451   40
- ***************************************************************** 225 1451   41
-                                                                   225 1451   42
- ----------------------------------------------------------------  225 1451   43
-                HE-3 FREE ATOM EVALUATION                          225 1451   44
-                  ENDF/B-VI DESCRIPTION                            225 1451   45
- ----------------------------------------------------------------  225 1451   46
-                                                                   225 1451   47
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  225 1451   48
-                                                                   225 1451   49
- this file transfered from l.stewart's endf/b-iii evaluation with  225 1451   50
- modifications only in the 3he(n,p) and the elastic cross sections 225 1451   51
- below 5 MeV, and the total cross section below 0.1 MeV.           225 1451   52
- *         *          *          *         *          *          * 225 1451   53
- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 225 1451   54
- *                                                               * 225 1451   55
- * cross section standard        he-3  (n,p)                     * 225 1451   56
- *                                                               * 225 1451   57
- * the he-3 (n,p) cross section for this material is recommended   225 1451   58
- * as a standard for neutron energies from thermal to 50 kev       225 1451   59
- *                                                               * 225 1451   60
- *         *          *          *         *          *          * 225 1451   61
+ ****************************************************************  225 1451   12
+ ENDF/B-VII.1                                                      225 1451   13
+ ****************************************************************  225 1451   14
+                                                                   225 1451   15
+New capture cross sections were evaluated with the EDA code.       225 1451   16
+The ENDF/B-VI evaluation is strictly 1/v, going through a low      225 1451   17
+thermal value, whereas the data indicate a higher thermal value,   225 1451   18
+and resonance structure around 2 MeV. This fit also had data in    225 1451   19
+the 4He(gamma,n) direction that indicated a much higher cross      225 1451   20
+section in the MeV region, and that is the reason why the new      225 1451   21
+evaluation looks overshooting the experimental 3He(n,g) data       225 1451   22
+in the MeV region. The differences in the new and old capture      225 1451   23
+cross sections was added to the total cross sections.              225 1451   24
+                                                                   225 1451   25
+                                              G. Hale (Apr. 2011)  225 1451   26
+                                                                   225 1451   27
+ ****************************************************************  225 1451   28
+                                                                   225 1451   29
+ ENDF/B-VII  CONVERTED FROM ENDF/B-VI BY NNDC OCT 2004             225 1451   30
+                                                                   225 1451   31
+ ****************************************************************  225 1451   32
+                                                                   225 1451   33
+                  MOD1 OF ENDF/B-VI                                225 1451   34
+                                                                   225 1451   35
+     THE ONLY REVISION MADE FOR MOD1 OF ENDF/B-VI WAS TO ADD THE   225 1451   36
+ COMMENTS BELOW ON THE STANDARDS COVARIANCES.  THE DESCRIPTION     225 1451   37
+ OF THE ENDF/B-VI EVALUATION IS GIVEN BELOW.                       225 1451   38
+                                                                   225 1451   39
+ ***************************************************************** 225 1451   40
+                                                                   225 1451   41
+ ----------------------------------------------------------------  225 1451   42
+                HE-3 FREE ATOM EVALUATION                          225 1451   43
+                  ENDF/B-VI DESCRIPTION                            225 1451   44
+ ----------------------------------------------------------------  225 1451   45
+                                                                   225 1451   46
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  225 1451   47
+                                                                   225 1451   48
+ this file transfered from l.stewart's endf/b-iii evaluation with  225 1451   49
+ modifications only in the 3he(n,p) and the elastic cross sections 225 1451   50
+ below 5 MeV, and the total cross section below 0.1 MeV.           225 1451   51
+ *         *          *          *         *          *          * 225 1451   52
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 225 1451   53
+ *                                                               * 225 1451   54
+ * cross section standard        he-3  (n,p)                     * 225 1451   55
+ *                                                               * 225 1451   56
+ * the he-3 (n,p) cross section for this material is recommended   225 1451   57
+ * as a standard for neutron energies from thermal to 50 kev       225 1451   58
+ *                                                               * 225 1451   59
+ *         *          *          *         *          *          * 225 1451   60
+                                                                   225 1451   61
                                                                    225 1451   62
-                                                                   225 1451   63
-  mf=1                                                             225 1451   64
-                                                                   225 1451   65
-    mt=451, atomic mass=3.0160                                     225 1451   66
-                                                                   225 1451   67
-  mf=2                                                             225 1451   68
-                                                                   225 1451   69
-    mt=151, scattering length=0.2821e-12 cm.                       225 1451   70
-                                                                   225 1451   71
-  mf=3                                                             225 1451   72
-                                                                   225 1451   73
-    mt=  1, total cross sections --- from .00001 ev to 200 kev     225 1451   74
-            mt1 taken as sum mt2+mt102+mt103. from 200 kev to 20   225 1451   75
-            mev, mt1 evaluated using experimental data from ref.6. 225 1451   76
-                                                                   225 1451   77
-    mt=  2, elastic scattering cross sections --- from .00001 ev   225 1451   78
-            to 200 kev, mt2 taken approximately from r-matrix      225 1451   79
-            analysis described below. above 200 kev, obtained      225 1451   80
-            from mt2=mt1-mt102-mt103-mt104.  note two reactions    225 1451   81
-            missing from this evaluation, namely n,n-prime,p and   225 1451   82
-            n,2n,2p.  exp. data at 15 mev indicates non-zero       225 1451   83
-            cross sections for these.  included in mt2 this eval.  225 1451   84
-                                                                   225 1451   85
-    mt=102, radiative capture cross sections --- thermal value     225 1451   86
-            taken from ref.17, with assumption of 1/v energy       225 1451   87
-            energy variation at all other energies.                225 1451   88
-                                                                   225 1451   89
-    mt=103, n-p cross sections --- below 5 mev taken from an       225 1451   90
-            r-matrix calculation of the four-body reactions        225 1451   91
-            by hale and dodder.  3he(n,p) data included were       225 1451   92
-            from refs. 5,13,14, and 15.  for energies in the       225 1451   93
-            5-20 mev range, data were used as follows -            225 1451   94
-            ref.4 - 5.8 mev to 11. mev                             225 1451   95
-            ref.10- 5.0 mev to 11. mev                             225 1451   96
-            ref.12- 5.0 mev to 12. mev                             225 1451   97
-            ref.16- 14. mev                                        225 1451   98
-            data extrapolated to 20. mev.                          225 1451   99
-                                                                   225 1451  100
-    mt=104, n-d cross sections --- threshold=4.36147mev            225 1451  101
-            q=-3.2684 mev.  evaluation from a detailed balance     225 1451  102
-            calculation(ref.13) and experimental data(ref.11).     225 1451  103
-                                                                   225 1451  104
-    mt=251, average value of cosine of elastic scattering angle,   225 1451  105
-            laboratory system.  obtained from data mf=4,mt=2.      225 1451  106
-                                                                   225 1451  107
-    mt=252, values of xi, obtained from data mf=4,mt=2             225 1451  108
-                                                                   225 1451  109
-    mt=253, values of gamma,obtained from data mf=4,mt=2           225 1451  110
-                                                                   225 1451  111
-  mf=4                                                             225 1451  112
-                                                                   225 1451  113
-    mt=  2, angular distribution of secondary neutrons from        225 1451  114
-            elastic scatter.  evaluated from experimental data     225 1451  115
-            from refs.2,7,9,11,16,17 covering incident energies    225 1451  116
-            as follows -                                           225 1451  117
-             incident energy         references                    225 1451  118
-                 1.e-5ev             (isotropic)                   225 1451  119
-                 0.5 mev             (isotropic)                   225 1451  120
-                 1.0 mev              9                            225 1451  121
-                 2.0 mev              9                            225 1451  122
-                 2.6 mev             11                            225 1451  123
-                 3.5 mev              9                            225 1451  124
-                 5.0 mev             11                            225 1451  125
-                 6.0 mev              9,7(from p+t elastic scatt)  225 1451  126
-                 8.0 mev             11,7(from p+t elastic scatt)  225 1451  127
-                14.5 mev             16,17(from p+t elastic scatt) 225 1451  128
-                17.5 mev             11                            225 1451  129
-                20.0 mev              2(from p+t elastic scatt)    225 1451  130
-                                                                   225 1451  131
-  references                                                       225 1451  132
-                                                                   225 1451  133
-    1.  r.batchelor,r.aves,and t.h.r.skyrme,rev.sci.instr.26,1037  225 1451  134
-        (1955).                                                    225 1451  135
-    2.  r.a.vanetsian and e.d.fenchenko,soviet journal of atomic   225 1451  136
-        energy 2,141(1957).                                        225 1451  137
-    3.  j.n.bradbury and l.stewart,bull.am.phys.soc.3,417(1958)    225 1451  138
-    4.  g.f.bogdanov,n.a.vlasov,c.p.kalinin,b.v.rybakov,l.n.       225 1451  139
-        samoilov,and v.a.sidorov,jetp(ussr)36,633(1959).           225 1451  140
-    5.  j.h.gibbons and r.l.macklin,phys.rev.114,571(1959).        225 1451  141
-    6.  los alamos physics and cryogenics groups,nucl.phys.12,     225 1451  142
-        291(1959).                                                 225 1451  143
-    7.  j.e.brolley,jr.,t.m.putnam,l.rosen,and l.stewart,phys.     225 1451  144
-        rev.159,777(1967).                                         225 1451  145
-    8.  j.e.perry,private communication to stewart(1960)           225 1451  146
-    9.  j.d.seagrave,l.cranberg,and j.e.simmons,phys.rev.119,      225 1451  147
-        1981(1960)                                                 225 1451  148
-   10.  m.d.goldberg,j.d.anderson,j.p.stoering,and c.wong,phys.    225 1451  149
-        rev.122,1510(1961).                                        225 1451  150
-   11.  a.r.sayers,k.w.jones,and c.s.wu,phys.rev.122,1853(1961).   225 1451  151
-   12.  w.e.wilson,r.l.walter,and d.b.fossan,nucl.phys.27,421      225 1451  152
-        (1961).                                                    225 1451  153
-   13.  j.als-nielsen and o.dietrich,phys.rev.133,b925(1964).      225 1451  154
-   14.  r.l.macklin and j.h.gibbons,proceedings of the internatl.  225 1451  155
-        conf.on the study of nucl.struct.with neuts.,antwerp(1965) 225 1451  156
-   15.  j.h.gibbons,private communication to stewart(1966).        225 1451  157
-   16.  b.antolkovic,g.paic,p.tomas,and r.rendic,phys.rev.159,     225 1451  158
-        777(1967).                                                 225 1451  159
-   17.  l.rosen and w.leland,private communication(1967)           225 1451  160
-   18.  s.mughabghab et al., neut.cross sect., vol.1, neut.reson.  225 1451  161
-        parameters and thermal cross sect., academic pr.(1981).    225 1451  162
-                                                                   225 1451  163
- ****************************************************************  225 1451  164
-                                                                   225 1451  165
-                        STANDARDS COVARIANCES                      225 1451  166
-                                                                   225 1451  167
- Phase 1 reviewers of the ENDF/B-VI standards cross sections have  225 1451  168
- expressed the concern that the uncertainties resulting from the   225 1451  169
- combination of R-matrix and simultaneous evaluations might have   225 1451  170
- led to uncertainties that are too small.  As a result, the        225 1451  171
- Standards Subcommittee produced (at the May, 1990 CSEWG meeting)  225 1451  172
- a set of expanded covariance estimates for the standard cross     225 1451  173
- section reactions.  These uncertainties are estimates such that   225 1451  174
- if a modern day experiment were performed on a given standard     225 1451  175
- cross section using the best techniques, approximately 2/3 of     225 1451  176
- the results should fall within these expanded uncertainties. The  225 1451  177
- expanded uncertainties for the He-3(n,p) cross section are as     225 1451  178
- follows:                                                          225 1451  179
-                                                                   225 1451  180
-    Energy Range          Estimated Uncertainty                    225 1451  181
-      (keV)                  (percent)                             225 1451  182
-                                                                   225 1451  183
- 1.0E-08 - 0.1                  0.3                                225 1451  184
-     0.1 - 1.0                  0.7                                225 1451  185
-     1.0 - 10.                  2.0                                225 1451  186
-     10. - 50.                  5.0                                225 1451  187
- ****************************************************************  225 1451  188
-                                                                   225 1451  189
-                                1        451        197          0 225 1451  190
-                                2        151          4          0 225 1451  191
-                                3          1         43          0 225 1451  192
-                                3          2         41          0 225 1451  193
-                                3        102         23          0 225 1451  194
-                                3        103         41          0 225 1451  195
-                                3        104         13          0 225 1451  196
-                                4          2        100          0 225 1451  197
+  mf=1                                                             225 1451   63
+                                                                   225 1451   64
+    mt=451, atomic mass=3.0160                                     225 1451   65
+                                                                   225 1451   66
+  mf=2                                                             225 1451   67
+                                                                   225 1451   68
+    mt=151, scattering length=0.2821e-12 cm.                       225 1451   69
+                                                                   225 1451   70
+  mf=3                                                             225 1451   71
+                                                                   225 1451   72
+    mt=  1, total cross sections --- from .00001 ev to 200 kev     225 1451   73
+            mt1 taken as sum mt2+mt102+mt103. from 200 kev to 20   225 1451   74
+            mev, mt1 evaluated using experimental data from ref.6. 225 1451   75
+                                                                   225 1451   76
+    mt=  2, elastic scattering cross sections --- from .00001 ev   225 1451   77
+            to 200 kev, mt2 taken approximately from r-matrix      225 1451   78
+            analysis described below. above 200 kev, obtained      225 1451   79
+            from mt2=mt1-mt102-mt103-mt104.  note two reactions    225 1451   80
+            missing from this evaluation, namely n,n-prime,p and   225 1451   81
+            n,2n,2p.  exp. data at 15 mev indicates non-zero       225 1451   82
+            cross sections for these.  included in mt2 this eval.  225 1451   83
+                                                                   225 1451   84
+    mt=102, radiative capture cross sections --- thermal value     225 1451   85
+            taken from ref.17, with assumption of 1/v energy       225 1451   86
+            energy variation at all other energies.                225 1451   87
+                                                                   225 1451   88
+    mt=103, n-p cross sections --- below 5 mev taken from an       225 1451   89
+            r-matrix calculation of the four-body reactions        225 1451   90
+            by hale and dodder.  3he(n,p) data included were       225 1451   91
+            from refs. 5,13,14, and 15.  for energies in the       225 1451   92
+            5-20 mev range, data were used as follows -            225 1451   93
+            ref.4 - 5.8 mev to 11. mev                             225 1451   94
+            ref.10- 5.0 mev to 11. mev                             225 1451   95
+            ref.12- 5.0 mev to 12. mev                             225 1451   96
+            ref.16- 14. mev                                        225 1451   97
+            data extrapolated to 20. mev.                          225 1451   98
+                                                                   225 1451   99
+    mt=104, n-d cross sections --- threshold=4.36147mev            225 1451  100
+            q=-3.2684 mev.  evaluation from a detailed balance     225 1451  101
+            calculation(ref.13) and experimental data(ref.11).     225 1451  102
+                                                                   225 1451  103
+    mt=251, average value of cosine of elastic scattering angle,   225 1451  104
+            laboratory system.  obtained from data mf=4,mt=2.      225 1451  105
+                                                                   225 1451  106
+    mt=252, values of xi, obtained from data mf=4,mt=2             225 1451  107
+                                                                   225 1451  108
+    mt=253, values of gamma,obtained from data mf=4,mt=2           225 1451  109
+                                                                   225 1451  110
+  mf=4                                                             225 1451  111
+                                                                   225 1451  112
+    mt=  2, angular distribution of secondary neutrons from        225 1451  113
+            elastic scatter.  evaluated from experimental data     225 1451  114
+            from refs.2,7,9,11,16,17 covering incident energies    225 1451  115
+            as follows -                                           225 1451  116
+             incident energy         references                    225 1451  117
+                 1.e-5ev             (isotropic)                   225 1451  118
+                 0.5 mev             (isotropic)                   225 1451  119
+                 1.0 mev              9                            225 1451  120
+                 2.0 mev              9                            225 1451  121
+                 2.6 mev             11                            225 1451  122
+                 3.5 mev              9                            225 1451  123
+                 5.0 mev             11                            225 1451  124
+                 6.0 mev              9,7(from p+t elastic scatt)  225 1451  125
+                 8.0 mev             11,7(from p+t elastic scatt)  225 1451  126
+                14.5 mev             16,17(from p+t elastic scatt) 225 1451  127
+                17.5 mev             11                            225 1451  128
+                20.0 mev              2(from p+t elastic scatt)    225 1451  129
+                                                                   225 1451  130
+  references                                                       225 1451  131
+                                                                   225 1451  132
+    1.  r.batchelor,r.aves,and t.h.r.skyrme,rev.sci.instr.26,1037  225 1451  133
+        (1955).                                                    225 1451  134
+    2.  r.a.vanetsian and e.d.fenchenko,soviet journal of atomic   225 1451  135
+        energy 2,141(1957).                                        225 1451  136
+    3.  j.n.bradbury and l.stewart,bull.am.phys.soc.3,417(1958)    225 1451  137
+    4.  g.f.bogdanov,n.a.vlasov,c.p.kalinin,b.v.rybakov,l.n.       225 1451  138
+        samoilov,and v.a.sidorov,jetp(ussr)36,633(1959).           225 1451  139
+    5.  j.h.gibbons and r.l.macklin,phys.rev.114,571(1959).        225 1451  140
+    6.  los alamos physics and cryogenics groups,nucl.phys.12,     225 1451  141
+        291(1959).                                                 225 1451  142
+    7.  j.e.brolley,jr.,t.m.putnam,l.rosen,and l.stewart,phys.     225 1451  143
+        rev.159,777(1967).                                         225 1451  144
+    8.  j.e.perry,private communication to stewart(1960)           225 1451  145
+    9.  j.d.seagrave,l.cranberg,and j.e.simmons,phys.rev.119,      225 1451  146
+        1981(1960)                                                 225 1451  147
+   10.  m.d.goldberg,j.d.anderson,j.p.stoering,and c.wong,phys.    225 1451  148
+        rev.122,1510(1961).                                        225 1451  149
+   11.  a.r.sayers,k.w.jones,and c.s.wu,phys.rev.122,1853(1961).   225 1451  150
+   12.  w.e.wilson,r.l.walter,and d.b.fossan,nucl.phys.27,421      225 1451  151
+        (1961).                                                    225 1451  152
+   13.  j.als-nielsen and o.dietrich,phys.rev.133,b925(1964).      225 1451  153
+   14.  r.l.macklin and j.h.gibbons,proceedings of the internatl.  225 1451  154
+        conf.on the study of nucl.struct.with neuts.,antwerp(1965) 225 1451  155
+   15.  j.h.gibbons,private communication to stewart(1966).        225 1451  156
+   16.  b.antolkovic,g.paic,p.tomas,and r.rendic,phys.rev.159,     225 1451  157
+        777(1967).                                                 225 1451  158
+   17.  l.rosen and w.leland,private communication(1967)           225 1451  159
+   18.  s.mughabghab et al., neut.cross sect., vol.1, neut.reson.  225 1451  160
+        parameters and thermal cross sect., academic pr.(1981).    225 1451  161
+                                                                   225 1451  162
+ ****************************************************************  225 1451  163
+                                                                   225 1451  164
+                        STANDARDS COVARIANCES                      225 1451  165
+                                                                   225 1451  166
+ Phase 1 reviewers of the ENDF/B-VI standards cross sections have  225 1451  167
+ expressed the concern that the uncertainties resulting from the   225 1451  168
+ combination of R-matrix and simultaneous evaluations might have   225 1451  169
+ led to uncertainties that are too small.  As a result, the        225 1451  170
+ Standards Subcommittee produced (at the May, 1990 CSEWG meeting)  225 1451  171
+ a set of expanded covariance estimates for the standard cross     225 1451  172
+ section reactions.  These uncertainties are estimates such that   225 1451  173
+ if a modern day experiment were performed on a given standard     225 1451  174
+ cross section using the best techniques, approximately 2/3 of     225 1451  175
+ the results should fall within these expanded uncertainties. The  225 1451  176
+ expanded uncertainties for the He-3(n,p) cross section are as     225 1451  177
+ follows:                                                          225 1451  178
+                                                                   225 1451  179
+    Energy Range          Estimated Uncertainty                    225 1451  180
+      (keV)                  (percent)                             225 1451  181
+                                                                   225 1451  182
+ 1.0E-08 - 0.1                  0.3                                225 1451  183
+     0.1 - 1.0                  0.7                                225 1451  184
+     1.0 - 10.                  2.0                                225 1451  185
+     10. - 50.                  5.0                                225 1451  186
+ ****************************************************************  225 1451  187
+                                                                   225 1451  188
+                                1        451        196          0 225 1451  189
+                                2        151          4          0 225 1451  190
+                                3          1         43          0 225 1451  191
+                                3          2         41          0 225 1451  192
+                                3        102         23          0 225 1451  193
+                                3        103         41          0 225 1451  194
+                                3        104         13          0 225 1451  195
+                                4          2        100          0 225 1451  196
  0.000000+0 0.000000+0          0          0          0          0 225 1  099999
  0.000000+0 0.000000+0          0          0          0          0 225 0  0    0
- 2.003000+3 2.990120+0          0          0          1          0 225 2151    1
+ 2.003000+3 2.989032+0          0          0          1          0 225 2151    1
  2.003000+3 1.000000+0          0          0          1          0 225 2151    2
  2.500000-2 1.000000+6          0          0          0          0 225 2151    3
  5.000000-1 5.132265-1          0          0          0          0 225 2151    4
  0.000000+0 0.000000+0          0          0          0          0 225 2  099999
  0.000000+0 0.000000+0          0          0          0          0 225 0  0    0
- 2.003000+3 2.990120+0          0          0          0          0 225 3  1    1
+ 2.003000+3 2.989032+0          0          0          0          0 225 3  1    1
  0.000000+0 0.000000+0          0          0          1        118 225 3  1    2
         118          2                                             225 3  1    3
  1.000000-5 2.674533+5 1.000000-4 8.458122+4 1.000000-3 2.674754+4 225 3  1    4
@@ -248,7 +247,7 @@ cross sections was added to the total cross sections.              225 1451   25
  1.700000+7 9.920318-1 1.800000+7 9.400307-1 1.900000+7 8.930297-1 225 3  1   42
  2.000000+7 8.510286-1                                             225 3  1   43
  0.000000+0 0.000000+0          0          0          0          0 225 3  099999
- 2.003000+3 2.990120+0          0          0          0          0 225 3  2    1
+ 2.003000+3 2.989032+0          0          0          0          0 225 3  2    1
  0.000000+0 0.000000+0          0          0          1        113 225 3  2    2
         113          5                                             225 3  2    3
  1.000000-5 3.310000+0 1.000000-4 3.310000+0 1.000000-3 3.310000+0 225 3  2    4
@@ -290,8 +289,8 @@ cross sections was added to the total cross sections.              225 1451   25
  1.600000+7 8.718000-1 1.700000+7 8.234000-1 1.800000+7 7.819000-1 225 3  2   40
  1.900000+7 7.450000-1 2.000000+7 7.130000-1                       225 3  2   41
  0.000000+0 0.000000+0          0          0          0          0 225 3  099999
- 2.003000+3 2.990120+0          0          0          0          0 225 3102    1
- 2.057761+7 2.057761+7          0          0          2         60 225 3102    2
+ 2.003000+3 2.989032+0          0          0          0          0 225 3102    1
+ 2.057778+7 2.057778+7          0          0          2         60 225 3102    2
          10          5         60          2                       225 3102    3
  1.000000-5 2.764700-3 1.000000-4 8.742800-4 1.000000-3 2.764700-4 225 3102    4
  1.000000-2 8.743000-5 2.530000-2 5.498000-5 1.000000-1 2.767000-5 225 3102    5
@@ -314,8 +313,8 @@ cross sections was added to the total cross sections.              225 1451   25
  1.500000+7 3.375000-5 1.600000+7 3.275000-5 1.700000+7 3.176000-5 225 3102   22
  1.800000+7 3.075000-5 1.900000+7 2.971000-5 2.000000+7 2.862000-5 225 3102   23
  0.000000+0 0.000000+0          0          0          0          0 225 3  099999
- 2.003000+3 2.990120+0          0          0          0          0 225 3103    1
- 7.637554+5 7.637554+5          0          0          1        113 225 3103    2
+ 2.003000+3 2.989032+0          0          0          0          0 225 3103    1
+ 7.637520+5 7.637520+5          0          0          1        113 225 3103    2
         113          5                                             225 3103    3
  1.000000-5 2.674500+5 1.000000-4 8.457790+4 1.000000-3 2.674423+4 225 3103    4
  1.000000-2 8.456170+3 2.530000-2 5.316000+3 1.000000-1 2.673300+3 225 3103    5
@@ -356,8 +355,8 @@ cross sections was added to the total cross sections.              225 1451   25
  1.600000+7 1.040000-1 1.700000+7 9.760000-2 1.800000+7 9.180000-2 225 3103   40
  1.900000+7 8.660000-2 2.000000+7 8.200000-2                       225 3103   41
  0.000000+0 0.000000+0          0          0          0          0 225 3  099999
- 2.003000+3 2.990120+0          0          0          0          0 225 3104    1
--3.268911+6-3.268911+6          0          0          2         28 225 3104    2
+ 2.003000+3 2.989032+0          0          0          0          0 225 3104    1
+-3.268954+6-3.268954+6          0          0          2         28 225 3104    2
           2          2         28          5                       225 3104    3
  4.362604+6 0.000000+0 4.380000+6 1.000000-3 4.500000+6 2.700000-3 225 3104    4
  5.000000+6 1.800000-2 5.500000+6 3.300000-2 6.000000+6 4.300000-2 225 3104    5
@@ -371,8 +370,8 @@ cross sections was added to the total cross sections.              225 1451   25
  2.000000+7 5.600000-2                                             225 3104   13
  0.000000+0 0.000000+0          0          0          0          0 225 3  099999
  0.000000+0 0.000000+0          0          0          0          0 225 0  0    0
- 2.003000+3 2.990120+0          0          2          0          0 225 4  2    1
- 0.000000+0 2.990120+0          0          2          0          0 225 4  2    2
+ 2.003000+3 2.989032+0          0          2          0          0 225 4  2    1
+ 0.000000+0 2.989032+0          0          2          0          0 225 4  2    2
  0.000000+0 0.000000+0          0          0          1         12 225 4  2    3
          12          2                                             225 4  2    4
  0.000000+0 1.000000-5          0          0          1          2 225 4  2    5
@@ -474,4 +473,4 @@ cross sections was added to the total cross sections.              225 1451   25
  0.000000+0 0.000000+0          0          0          0          0 225 4  099999
  0.000000+0 0.000000+0          0          0          0          0 225 0  0    0
  0.000000+0 0.000000+0          0          0          0          0   0 0  0    0
- 0.000000+0 0.000000+0          0          0          0          0  -1 0  0    0
+                                                                    -1 0  0    0
